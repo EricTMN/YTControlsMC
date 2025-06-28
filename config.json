@@ -1,0 +1,18 @@
+{
+  "YOUTUBE_CHANNEL_ID": "UC1N9QTBxJSKuJOYlMwdE2Yw",
+  "YOUTUBE_STREAM_URL": "https://www.youtube.com/watch?v=BnX-P-DebMI",
+
+  "RCON_HOST": "localhost",
+  "RCON_PORT": 25575,
+  "RCON_PASSWORD": "EricTMNSucks",
+  "PLAYER_USERNAME": "EricTMN",
+
+  "MESSAGE_RATE": 0.5,
+  "MAX_QUEUE_LENGTH": 5,
+  "MAX_WORKERS": 15,
+
+  "MAX_ITEMS": 1,
+  "MAX_EFFECT_DURATION": 30,
+  "MAX_EFFECT_AMPLIFIER": 3,
+  "MAX_MOBS": 1
+}

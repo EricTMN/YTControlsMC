@@ -1,0 +1,5 @@
+{
+  "MOBS": ["wither", "ender_dragon"],
+  "ITEMS": ["command_block", "structure_block", "repeating_command_block"],
+  "EFFECTS": ["bad_omen", "instant_damage", "blindness"]
+}

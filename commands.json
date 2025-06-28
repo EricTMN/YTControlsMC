@@ -1,0 +1,6 @@
+{
+  "day": "time set day",
+  "night": "time set night",
+  "clear effect": "effect clear {PLAYER}",
+  "erictmn sucks": "kill {PLAYER}"
+}
