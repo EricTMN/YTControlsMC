@@ -5,6 +5,7 @@ A small application I made allowing YouTube chatters to interact with a Minecraf
 # YouTube Livestream Chat Integration Into Minecraft Instructions
 
 1. Open config.json and fill in your YouTube channel info (CHANNEL ID and STREAM URL) and RCON settings.
+
 *To find your channel ID, go to your profile > settings > advanced settings > Channel ID*
 *Your RCON settings must match your Minecraft server's RCON, I recommend using a local server*
 *IF using a local server, no need to change the host and make sure the port and password matches with the server's server.properties file*
@@ -24,6 +25,7 @@ These are caps, if the viewers try to go past this, it will just limit it to the
 # Commands Config File
 
 Commands are commands you can set up that aren't available for the viewers by default (e.g. gamemode)
+
 To add a command simply, 
 1. Add a new line (make sure the previous line before that has a comma at the end)
 2. In new "quotations", name it what you want viewers to refer to it as.
@@ -40,14 +42,16 @@ To add a new blacklisted term,
 
 1. Add a comma inside the brackets of one of the blacklists (mobs, items, effects)
 2. add new a "quotation" with the thing you want to block (for an item, it would simply be the item name, to check, turn on advanced tool tips in Minecraft Java [F3 + H])
+   
 *Note: no need to add the "minecraft:" part*
 3. Save the file using Ctrl + S
 
-# SOURCE CODE
+# Source Code
 You will need to install Python 3.9 or above
 You will also need to install these libraries:
 
 python -m pip install mcron
+
 python -m pip install requests
 
 After that, you can modify the configurations like you would with the app in the three json files
