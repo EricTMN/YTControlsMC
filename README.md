@@ -45,7 +45,8 @@ To add a new blacklisted term,
 
 # SOURCE CODE
 You will need to install Python 3.9 or above
-You will also need to install these libraries
+You will also need to install these libraries:
+
 python -m pip install mcron
 python -m pip install requests
 
