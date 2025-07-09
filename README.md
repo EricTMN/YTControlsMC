@@ -7,12 +7,19 @@ A small application I made allowing YouTube chatters to interact with a Minecraf
 1. Open config.json and fill in your YouTube channel info (CHANNEL ID and STREAM URL) and RCON settings.
 
 *To find your channel ID, go to your profile > settings > advanced settings > Channel ID*
+
 *Your RCON settings must match your Minecraft server's RCON, I recommend using a local server*
+
 *IF using a local server, no need to change the host and make sure the port and password matches with the server's server.properties file*
+
 2. Change PLAYER_USERNAME to your Minecraft IGN (or @a for all player, although not tested)
+
 3. Save the file using Ctrl + S
+
 4. Double-click the .exe to launch the controller.
+
 5. Viewers can now type chat commands like “give diamond 5” or “effect speed 30 3”
+
 6. Simply close the command prompt when done
 
 **IMPORTANT**: Do not rename or move the .json files, or the program may not work. No need to change the message rate, max queue length and max workers. 
@@ -44,6 +51,7 @@ To add a new blacklisted term,
 2. add new a "quotation" with the thing you want to block (for an item, it would simply be the item name, to check, turn on advanced tool tips in Minecraft Java [F3 + H])
    
 *Note: no need to add the "minecraft:" part*
+
 3. Save the file using Ctrl + S
 
 # Source Code
