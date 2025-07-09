@@ -42,3 +42,13 @@ To add a new blacklisted term,
 2. add new a "quotation" with the thing you want to block (for an item, it would simply be the item name, to check, turn on advanced tool tips in Minecraft Java [F3 + H])
 *Note: no need to add the "minecraft:" part*
 3. Save the file using Ctrl + S
+
+# SOURCE CODE
+You will need to install Python 3.9 or above
+You will also need to install these libraries
+python -m pip install mcron
+python -m pip install requests
+
+After that, you can modify the configurations like you would with the app in the three json files
+
+If you want to modify how the script works or improve on it, You can edit the **YTControlsWorld.py** script
