@@ -1,6 +1,61 @@
 # YTControlsMC
 A small application I made allowing YouTube chatters to interact with a Minecraft Server World using RCON
 *This uses @DougDougGithub's TwitchPlays code but for YouTube chat and controls a Minecraft server using RCON*
+*This is only available for Java edition of Minecraft, NOT bedrock.*
+
+# How to set up a Minecraft Java Server
+
+*this is only for your local network, friends will not be allowed to play unless you portforward which will NOT be explained here, and as it risks exposing your IP address*
+
+If you want a YouTube video version, here is a YouTube link to a tutorial by Kevin Stratvert https://www.youtube.com/watch?v=sz6kqZPVsfM
+
+1. I recommend downloading a Minecraft server from papermc.io as the servers are better than vanilla servers and can support plugins.
+https://papermc.io/downloads
+
+After downloading the server jar file which might look like. `paper-1.21.8-4.jar`
+*Numbers may vary depending on which version of paper you download, in this case, this is for Minecraft Java 1.21.8*
+
+2. After downloading, going to your file explorer, create a new folder for your Minecraft server, in this example, we will use the name `Our Server`
+
+3. Simply put the server jar file into this newly created folder.
+
+4. In the address bar above (where you see the directory C:\etc), replace it with `cmd` and hit enter.
+
+5. This should open a command prompt, here, we will check if we have java installed.
+
+6. To check if you have java, run `java -version` in the command prompt. If you get `'java' is not recognized as an internal or external command, operable program or batch file`, then we will need to install Java.
+
+7. To install java, you will need to run `winget install Microsoft.OpenJDK.21` in commmand prompt. (this is Java for the most recent version)
+
+8. After installing Java, you might need to close and re open the command prompt by using step 4, then here run the command `java -jar server.jar --nogui`
+
+9. After running the command, a lot of text is going to appear, but or server hasn't started yet, we will need to agree to the server EULA file which we can see in our folder that we created with the server jar.
+
+10. In the EULA file, change `eula=false` to `eula=true` then save (ctrl + s)
+
+11. Then back in command prompt, run the `java -jar server.jar` command, to start up our server. A windows security message might appear, make sure to click `Allow`
+
+12. Your Minecraft server is now almost finished! We are now going to create a new file so we don't have to open command prompt everytime we want to start our server.
+
+13. Close the server and command prompt windows, then we will create a new text document (Make sure you have "show file extensions", to enable, go to "view > show > file name extensions")
+
+14. replace the text file `New Text Document.txt` with `start.bat` then save, if you get a warning about the file might becoming unusable and if we are sure that we want to change it, press `Yes`
+
+15. Next, right click and edit it within notepad. In here, paste the following code
+
+`@ECHO OFF
+java -Xms2G -Xmx8G -jar server.jar
+Pause`
+
+*this code will automatically run the server without us having to open command prompt every time which is neat!*
+
+*in the second line, `-Xms2G -Xmx4G` is the amount of ram you want to dedicate to your server, in this case, it's 2 for the minimum and 8 for the max, change these to your likings but make sure you have enough ram!
+
+16. After pasting the code, make sure to save the file (ctrl + s) and close notepad.
+
+After that, the server is done! if you want to change server settings, you can open the server.properties file (with notepad as well) and configure it to your liking. To run the server now, just simply run the `start.bat` file!
+
+*to connect to your server locally, go to Minecraft and to the multiplayer tab, here add a server, and for the server address, make sure to make it as `localhost`*
 
 # YouTube Livestream Chat Integration Into Minecraft Instructions
 
