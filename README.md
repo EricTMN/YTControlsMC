@@ -54,7 +54,7 @@ After downloading the server jar file which might look like. `paper-1.21.8-4.jar
 
 *this code will automatically run the server without us having to open command prompt every time which is neat!*
 
-*in the second line, `-Xms2G -Xmx4G` is the amount of ram you want to dedicate to your server, in this case, it's 2 for the minimum and 8 for the max, change these to your likings but make sure you have enough ram!
+*in the second line, `-Xms2G -Xmx4G` is the amount of ram you want to dedicate to your server, in this case, it's 2 for the minimum and 8 for the max, change these to your likings but make sure you have enough ram!*
 
 16. After pasting the code, make sure to save the file (ctrl + s) and close notepad.
 
