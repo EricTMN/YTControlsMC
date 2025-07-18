@@ -44,9 +44,13 @@ After downloading the server jar file which might look like. `paper-1.21.8-4.jar
 
 15. Next, right click and edit it within notepad. In here, paste the following code
 
-`@ECHO OFF
-java -Xms2G -Xmx8G -jar server.jar
-Pause`
+`@ECHO OFF`
+
+`java -Xms2G -Xmx8G -jar server.jar`
+
+`Pause`
+
+***MAKE SURE TO CHANGE `server.jar` TO THE NAME OF THE MINECRAFT SERVER FILE YOU DOWNLOADED, in this case, we would change it to `paper-1.21.8-4.jar`***
 
 *this code will automatically run the server without us having to open command prompt every time which is neat!*
 
