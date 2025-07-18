@@ -13,9 +13,10 @@ If you want a YouTube video version, here is a YouTube link to a tutorial by Kev
 https://papermc.io/downloads
 
 After downloading the server jar file which might look like. `paper-1.21.8-4.jar`
+
 *Numbers may vary depending on which version of paper you download, in this case, this is for Minecraft Java 1.21.8*
 
-2. After downloading, going to your file explorer, create a new folder for your Minecraft server, in this example, we will use the name `Our Server`
+2. After downloading, going to your file explorer, create a new folder for your Minecraft server.
 
 3. Simply put the server jar file into this newly created folder.
 
