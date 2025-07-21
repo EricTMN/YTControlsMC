@@ -80,7 +80,23 @@ After that, the server is done! if you want to change server settings, you can o
 
 5. Viewers can now type chat commands like “give diamond 5” or “effect speed 30 3”
 
-6. Simply close the command prompt when done
+6. Simply close the command prompt whenever you want your chat to stop.
+
+**PREDETERMINED COMMANDS**
+
+This script has already commands built in that viewers can do
+
+These built in commands feature "give", "summon", "spawn", and "effect"
+
+All viewers simply need to do is type the keyword, then whatever they want to give you
+
+ex: `give diamond 30`
+
+in the example, we are giving 30 diamonds. 
+
+If you do not receive the item, it is most likely how the item is formatted in minecraft. 
+
+For example, if a viewer wants to give you an `eye of ender`, they would actually need to type `ender eye` as in minecraft, it is formatted as `minecraft:ender_eye`
 
 **IMPORTANT**: Do not rename or move the .json files, or the program may not work. No need to change the message rate, max queue length and max workers. 
 
